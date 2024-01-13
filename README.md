@@ -1,4 +1,4 @@
-![image](https://github.com/Kanika18ss/Knight-s-Tour-/assets/110254553/92464733-f76f-44e0-870f-e859cb507f96)#<< Knight-s-Tour >>
+<< Knight-s-Tour >>
 # Project Abstract
 
 ## Overview
