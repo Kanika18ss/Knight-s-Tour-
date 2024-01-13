@@ -1,16 +1,24 @@
-<<<Sadhana (Meditation for all)>>>
+Knight's Tour
 =======
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 ## Project Abstract
 A Knight in a chessboard can move from any square on the standard chessboard to any other square on the board, given enough turns. Its basic move is two steps forward and one step sideways depending on the direction it is moving. Our task in the project is to build a function that returns the path a knight can move from one square to another in the simplest way, outputting all the squares the Knight will pass through.
 
 ## Algorithm Used
 In this project I have implemented Dijkstra's algorithm for finding the shortest path between nodes in a weighted graph i.e. represented through (8*8) chessboard. In this context, it optimally determines the shortest path from the knight's initial position to the destination on the chessboard.
+
+##Dijkstra's Algorithm
+1. Create a set sptSet (shortest path tree set) that keeps track of vertices included in the shortest path tree, i.e., whose minimum 
+   distance from the source is calculated and finalized. Initially, this set is empty. 
+2. Assign a distance value to all vertices in the input graph. Initialize all distance values as INFINITE. Assign the distance value as 0 
+   for the source vertex so that it is picked first. 
+3. While sptSet doesn’t include all vertices 
+    3.1 Pick a vertex u that is not there in sptSet and has a minimum distance value. 
+    3.2 Include u to sptSet. 
+4. Then update the distance value of all adjacent vertices of u. 
+    4.1 To update the distance values, iterate through all adjacent vertices. 
+    4.2 For every adjacent vertex v, if the sum of the distance value of u (from source) and weight of edge u-v, is less than the     
+         distance value of v, then update the distance value of v. 
 
 ![image](https://github.com/Kanika18ss/Knight-s-Tour-/assets/110254553/fbc5e1cb-af86-463a-bf3b-d6d540657ce5)
 
