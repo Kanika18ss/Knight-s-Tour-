@@ -1,7 +1,6 @@
-head #<< Knight-s-Tour >>
+**<<< Knight-s-Tour >>>
 
-
-## # Project Abstract
+## Project Abstract
 A Knight in a chessboard can move from any square on the standard chessboard to any other square on the board, given enough turns. Its basic move is two steps forward and one step sideways depending on the direction it is moving. Our task in the project is to build a function that returns the path a knight can move from one square to another in the simplest way, outputting all the squares the Knight will pass through.
 
 ## Algorithm Used
